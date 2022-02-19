@@ -155,3 +155,38 @@ ul{
 	border: 1px solid #53A1CB;
 	color: #53A1CB;
 }
+.video{
+	margin: 0 0 150px 0;
+}
+.video__img{
+	margin-bottom: 25px;
+}
+.video__btn{
+	font-family: 'Corporate-A-Bold';
+	color: #F402A2;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	gap: 10px;
+	width: 100%;
+	font-size: 18px;
+	line-height: 120%;
+	text-transform: uppercase;
+	padding: 14px;
+	cursor: pointer;
+	border: 1px solid #F402A2;
+	transition: all .3s;
+}
+.video__btn span {
+	padding-top: 2px;
+}
+.video__btn:hover{
+	border: 1px solid #53A1CB;
+	color: #53A1CB;
+}
+.video__btn path{
+	transition: all .3s;
+}
+.video__btn:hover path{
+	fill: #53A1CB;
+}
