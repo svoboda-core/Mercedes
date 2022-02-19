@@ -121,3 +121,34 @@ ul{
 	margin-bottom: 25px;
 	line-height: 120%;
 }
+.premier{
+	margin: 0 0 150px 0;
+}
+.premier__inner{
+	display: flex;
+	gap: 60px;
+}
+.premier__text{
+	margin: 0 0 21px 0;
+}
+.premier__img{
+	margin: 0 0 20px 0;
+}
+.premier__btn{
+	font-family: 'Corporate-A-Bold';
+	color: #F402A2;
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	line-height: 120%;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 14px;
+	cursor: pointer;
+	border: 1px solid #F402A2;
+	transition: all .3s;
+}
+.premier__btn:hover{
+	border: 1px solid #53A1CB;
+	color: #53A1CB;
+}
