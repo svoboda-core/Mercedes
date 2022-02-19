@@ -190,3 +190,27 @@ ul{
 .video__btn:hover path{
 	fill: #53A1CB;
 }
+
+.desing__interior{
+	display: grid;
+	grid-template-columns: 255px 255px auto 330px;
+	grid-template-rows: auto auto;
+	gap: 14px 44px;
+}
+.desing__cell-one{
+	grid-row: 1/3;
+}
+.desing__cell-tow{
+	grid-row-end: -1;
+	display: flex;
+	align-items: flex-end;
+}
+.desing__cell-three{
+	grid-column-end: -1;
+	grid-row-end: -1;
+	display: flex;
+	align-items: flex-end;
+}
+.desing__cell-text{
+	margin-bottom: 15px;
+}
