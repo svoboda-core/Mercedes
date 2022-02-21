@@ -1,1 +1,0 @@
-echo '<?php header( 'Location: /index.html' ) ;  ?>' index.php
